@@ -1,0 +1,44 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  color: #555;
+  padding: 8px 16px;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Subtle hover effect */
+}
+
+/* Mobile Toggle Button */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+/* Customizing the collapsed menu on mobile */
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    text-align: center;
+    padding: 10px;
+  }
+}

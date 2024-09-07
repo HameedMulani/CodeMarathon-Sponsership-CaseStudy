@@ -1,0 +1,49 @@
+.sponsor-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sponsor-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 1.5rem auto;
+  max-width: 600px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.sponsor-card h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 2rem;
+}
+
+.sponsor-card h2 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+.sponsor-card p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.sponsor-card p strong {
+  color: #007bff;
+}
+
+.sponsor-card hr {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 1.5rem 0;
+}
+
+.sponsor-card br {
+  margin-bottom: 1rem;
+}
